@@ -532,7 +532,7 @@ def _initialize_stones_and_matrix() -> tuple[dict[int, Stone], list[list[int]]]:
     i = 0
     curr_row = 0  # actually this represents a COLUMN, but this is not important
     while curr_row < 8:
-        if curr_row % 2 == 0:  # in even columns we put to pieces
+        if curr_row % 2 == 0:  # in even columns we put two pieces
             stones[i] = Stone(i, (curr_row, 0), "B")
             stones[i + 1] = Stone(i + 1, (curr_row, 2), "B")
             i, curr_row = i + 2, curr_row + 1
