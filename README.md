@@ -1,7 +1,7 @@
 # Check Your Move!
 
-Am implementation of the recursive MiniMax search tree algorithm (in `Python`) for the purpose
-the development of an intelligent Checkers Player.
+Am implementation of the recursive MiniMax search tree algorithm (in `Python`) for the purpose of
+developing an intelligent Checkers Player.
 
 ![alt UI](images/uiHomeScreen.png)
 
